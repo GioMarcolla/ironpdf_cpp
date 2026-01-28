@@ -21,8 +21,10 @@ Download and Install:
 - Php 8.5 
 - IDE (VSCode or PHP Storm recommended)
 - Browser for testing (Min. Chrome and Firefox; Safari if available)
-- ResposivelyApp for responsiveness testing
+- ResposivelyApp for responsiveness testing (optional)
 - Clone this repo
+
+Open the cloned repo with your IDE.
 
 Configure (Production): 
 - .evn
@@ -92,3 +94,5 @@ This data is loaded and passed to the page from the controller:
         'jsonData' => $jsonData
     ]);
 ```
+
+No models were created since the loading of data is currently a mock JSON file.
