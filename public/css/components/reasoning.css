@@ -1,0 +1,55 @@
+#home-reasoning {
+    padding: 100px 0;
+}
+
+#home-reasoning > div > div > div {
+    gap: 22px;
+}
+
+#home-reasoning .icon-glow {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+}
+
+#home-reasoning .icon-glow img {
+    position: relative;
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#home-reasoning .glow-source {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background: linear-gradient(to right, #e01a59, #460a48);
+
+    -webkit-mask-image: url("/images/HTML_TO_PDF.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+
+    mask-image: url("/images/HTML_TO_PDF.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+}
+
+#home-reasoning .glow-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    filter: blur(50px);
+    opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+    #home-reasoning .icon-glow {
+        margin-bottom: 40px;
+    }
+}

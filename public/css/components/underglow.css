@@ -1,0 +1,19 @@
+.underglow-source {
+    position: absolute;
+    width: 1600px;
+    height: 300px;
+    z-index: 1;
+
+    background: linear-gradient(to right, #E01A59, #460A48);
+    transform: perspective(1600px) rotateY(55deg) rotateX(45deg) rotateZ(-1deg);
+    translate: 79px 6px;
+}
+
+.underglow {
+    position: absolute;
+    width: 1600px;
+    height: 300px;
+    z-index: 0;
+    filter: blur(80px);
+    opacity: 0.15;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham/gotham_light.otf") format("otf");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham/gotham_book.otf") format("otf");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham/gotham_medium.otf") format("otf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham/gotham_bold.otf") format("otf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham/gotham_black.otf") format("otf");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.fs-11 {
+    font-size: 0.6875rem;
+}
+
+.fs-14 {
+    font-size: 0.875rem;
+}
+
+.fs-16 {
+    font-size: 1rem;
+}
+
+.fs-18 {
+    font-size: 1.125rem;
+}
+
+.fs-30 {
+    font-size: 1.875rem;
+}
+
+.fs-40 {
+    font-size: 2.5rem;
+}
+
+.fs-50 {
+    font-size: 3.125rem;
+}
+
+.lh-18 {
+    line-height: 18px;
+}
+.lh-26 {
+    line-height: 26px;
+}
+.lh-28 {
+    line-height: 28px;
+}
+.lh-44 {
+    line-height: 44px;
+}
+.lh-48 {
+    line-height: 48px;
+}
+.lh-54 {
+    line-height: 54px;
+}

@@ -1,0 +1,35 @@
+#hero-image {
+    max-width: 50%;
+}
+
+#home-hero #hero-intro {
+    margin-top: 118px;
+    margin-bottom: 34px;
+    gap: 40px;
+}
+
+#home-hero #hero-signup {
+    padding: 70px 0;
+}
+
+#home-hero .hero-content {
+    gap: 10px;
+}
+
+#home-hero #hero-intro .hero-content *,
+#home-hero #hero-signup .hero-content * {
+    margin: 0;
+}
+
+#home-hero #hero-signup .hero-content {
+    gap: 20px;
+}
+
+.hero-signup-gradient {
+    background: linear-gradient(
+        to right, 
+        #8e608e 25%, 
+        #402640 70%, 
+        #371a34 90%);
+}
+

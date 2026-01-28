@@ -1,0 +1,47 @@
+#home-coming-soon {
+    padding: 48px 0 0 0;
+}
+
+#coming-soon-intro,
+#coming-soon-description {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    gap: 50px;
+}
+
+#coming-soon-title {
+    line-height: 44px;
+}
+
+#coming-soon-title > img {
+    bottom: 17px;
+    right: 0;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    #coming-soon-title > img {
+        right: -58px;
+        bottom: 7px;
+        z-index: 1;
+    }
+}
+
+#coming-soon-description {
+    background-color: var(--purple-900-30);
+}
+
+#coming-soon-description > div {
+    gap: 22px;
+}
+
+#coming-soon-description > div > p {
+    margin: 0;
+    line-height: 28px;
+}
+
+#home-coming-soon div.d-flex.dynamic-separator > div.separator {
+    flex-grow: 1;
+    text-align: center;
+    color: var(--purple-350);
+}

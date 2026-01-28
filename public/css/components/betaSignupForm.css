@@ -1,0 +1,26 @@
+form.beta-signup-form {
+    width: 100%;
+    max-width: 600px;
+}
+
+form.beta-signup-form > fieldset > div {
+    height: 64px;
+    box-sizing: border-box;
+}
+
+form.beta-signup-form > fieldset > div > button {
+    padding: 0 35px;
+}
+
+form.beta-signup-form > fieldset > div > button > svg {
+    height: 18px;
+    fill: white;
+    margin-top: 1px;
+}
+
+form.beta-signup-form > fieldset > div > input::placeholder {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--purple-300);
+}

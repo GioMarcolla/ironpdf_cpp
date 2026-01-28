@@ -1,0 +1,8 @@
+#home-beta {
+    background-color: var(--purple-900-30);
+    padding: 60px 0;
+}
+
+#home-beta > div {
+    gap: 30px;
+}

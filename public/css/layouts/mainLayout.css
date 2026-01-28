@@ -1,0 +1,156 @@
+@import url("../fonts.css");
+@import url("../theme.css");
+
+*,
+html,
+body {
+    border: none !important;
+
+    font-family:
+        "Gotham",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        "Segoe UI",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    width: auto;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0;
+    white-space: normal;
+
+    /* iOS/Safari */
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+/* iOS/Safari */
+.d-flex > * {
+    min-width: 0;
+    max-width: 100%;
+}
+
+html,
+body {
+    background-color: var(--purple-800);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.text-purple-100 {
+    color: var(--purple-100);
+}
+
+.text-purple-200 {
+    color: var(--purple-200);
+}
+
+.text-purple-500 {
+    color: var(--purple-500);
+}
+
+.bg-purple-100 {
+    background-color: var(--purple-100);
+}
+
+.bg-purple-200 {
+    background-color: var(--purple-200);
+}
+
+.bg-purple-350 {
+    background-color: var(--purple-350);
+}
+
+.bg-purple-500 {
+    background-color: var(--purple-500);
+}
+
+.border-purple-100 {
+    border-color: var(--purple-100) !important;
+}
+
+.border-purple-200 {
+    border-color: var(--purple-200) !important;
+}
+
+.border-white-100 {
+    border-color: var(--white-100) !important;
+}
+
+.btn-pink {
+    background-color: var(--pink);
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: var(--pink);
+    filter: brightness(1.15);
+}
+
+.container-dynamic {
+    width: 100%; /* fluid width */
+    max-width: 2150px; /* cap for large screens */
+    margin-inline: auto; /* center the container */
+    padding-inline: 20px; /* fluid padding on small screens */
+    overflow-x: hidden; /* safety against horizontal scroll */
+}
+
+/* sm */
+@media (min-width: 576px) {
+    .container-dynamic {
+        padding-inline: 60px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container-dynamic {
+        padding-inline: 120px;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .container-dynamic {
+        padding-inline: 215px;
+    }
+}
+
+/* prevent flex children overflow on iOS */
+.container-dynamic > * {
+    min-width: 0;
+}
+
+/* prevent images/media from stretching container */
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+:focus-visible {
+    outline: 2px solid #a855f7;
+    outline-offset: 2px;
+}
