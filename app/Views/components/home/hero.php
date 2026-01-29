@@ -35,7 +35,7 @@
     </section>
 
     <section id="hero-signup" class="hero-signup-gradient text-center text-xl-start">
-        <div class="hero-content container-dynamic d-flex flex-column position-relative z-3">
+        <div class="hero-content container-dynamic d-flex flex-column align-items-center align-items-xl-start position-relative z-3">
             <div class="d-flex flex-column w-100" style="gap: 20px; max-width: 530px;">
                 <div class="d-flex flex-column" style="gap: 5px">
                     <h2 class="fw-black fs-40 lh-44"><?= esc($jsonData['header']['hero']['signup']['cta_title']) ?></h2>
