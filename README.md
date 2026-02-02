@@ -46,7 +46,7 @@ Every page has it's own controller matching in name to the page file inside `Vie
 - `Controllers/Home.php`
 - `Views/home.php`
 
-Single layout can be found at: `Views/Layout/mainLayout.php`
+Single layout can be found at: `Views/layouts/mainLayout.php`
 
 All components can be found at: `Views/components/`
 

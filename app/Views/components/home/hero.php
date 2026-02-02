@@ -7,6 +7,7 @@
             width="<?= esc($jsonData['header']['hero']['hero_image']['width']) ?>"
             height="<?= esc($jsonData['header']['hero']['hero_image']['height']) ?>"
             loading="eager" 
+            fetchpriority="high"
             aria-hidden="true"/>
     </div>
 
